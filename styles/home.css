@@ -1,0 +1,26 @@
+.home-content {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  gap: var(--gap);
+  min-height: 100vh;
+  margin-top: 64px;
+}
+
+.home-text-content, .home-img {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.home-img img,
+.home-img svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.home-img img {
+  width: 620px;
+  height: 620px;
+  margin-left: 46px;
+}

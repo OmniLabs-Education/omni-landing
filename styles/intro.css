@@ -1,0 +1,8 @@
+.intro-content {
+  max-width: 86rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  min-height: 100vh;
+}

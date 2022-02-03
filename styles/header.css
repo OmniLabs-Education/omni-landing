@@ -1,4 +1,4 @@
-.menu {
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -8,7 +8,7 @@
   border-bottom: 0.4rem solid var(--primary-color);
 }
 
-.menu-content {
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,29 +16,28 @@
   padding-bottom: 0;
 }
 
-.menu h1 {
+.header h1 {
   font-size: 2.3rem;
   color: var(--primary-color);
 }
 
-.menu h1 a {
+.header h1 a {
   color: inherit;
 }
 
-.menu h1 img {
+.header h1 img {
   width: 60px;
   height: 60px;
 }
 
-.menu ul {
+.header ul {
   list-style: none;
   display: flex;
 }
 
-.menu ul li a {
+.header ul li a {
   display: block;
   padding: 2rem;
   font-size: 1.8rem;
-  color: var(--primary-color);
   position: relative;
 }
